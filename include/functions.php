@@ -1,5 +1,4 @@
 <?php
-
 function config(){
     $localhost="localhost";
     $username="root";
@@ -44,10 +43,5 @@ function deletemenu($id){
     $connect=config();
     $sql="DELETE FROM menu_tbl WHERE id='$id'";
     $row=mysqli_query($connect,$sql);
-    header("location:../admin/dashbord.php?m=menu&p=list");
 }
-
-
 ?>
-
-

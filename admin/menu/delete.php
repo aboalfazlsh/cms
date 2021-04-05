@@ -1,5 +1,6 @@
-<?php
+﻿<?php
+session_start();
 $id=$_GET['id'];
 deletemenu($id);
-header("location:dashbord.php?m=menu&p=list");
 ?>
+<a href="dashbord.php">برگشت به پنل ادمین</a>

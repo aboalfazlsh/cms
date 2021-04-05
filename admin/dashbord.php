@@ -1,9 +1,8 @@
 ﻿<?php
 session_start();
 include_once "../include/functions.php";
-if(!isset($_SESSION['id']) ){
+if(!isset($_SESSION['id'])){
     header("location:index.php?login=first");
-
 }
 $connect=config();
 $id=$_SESSION['id'];
@@ -11,9 +10,7 @@ $id = $id + 0 ;
 $sql="SELECT * FROM admin_tbl WHERE id='$id'";
 $res=mysqli_query($connect,$sql);
 $row=mysqli_fetch_assoc($res);
-//var_dump($row);
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,9 +20,7 @@ $row=mysqli_fetch_assoc($res);
     <meta name="author" content="Mosaddek">
     <meta name="keyword" content="FlatLab, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
     <link rel="shortcut icon" href="img/favicon.html">
-
     <title>Inbox</title>
-
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-reset.css" rel="stylesheet">
@@ -35,16 +30,13 @@ $row=mysqli_fetch_assoc($res);
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style-responsive.css" rel="stylesheet" />
-
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
 </head>
-
 <body>
-
     <section id="container" class="">
         <!--header start-->
         <header class="header white-bg">
@@ -131,7 +123,6 @@ $row=mysqli_fetch_assoc($res);
                                             <span class="sr-only">45% Complete</span>
                                         </div>
                                     </div>
-
                                 </a>
                             </li>
                             <li class="external">
@@ -139,7 +130,6 @@ $row=mysqli_fetch_assoc($res);
                             </li>
                         </ul>
                     </li>
-                    <!-- settings end -->
                     <!-- inbox dropdown start-->
                     <li id="header_inbox_bar" class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
@@ -159,8 +149,7 @@ $row=mysqli_fetch_assoc($res);
                                         <span class="from"><?PHP echo $row['name'] ?></span>
                                         <span class="time">همین حالا</span>
                                     </span>
-                                    <span class="message">سلام،متن پیام نمایشی جهت تست
-                                    </span>
+                                    <span class="message">سلام،متن پیام نمایشی جهت تست</span>
                                 </a>
                             </li>
                             <li>
@@ -171,8 +160,7 @@ $row=mysqli_fetch_assoc($res);
                                         <span class="from">ایمان مدائنی</span>
                                         <span class="time">10 دقیقه قبل</span>
                                     </span>
-                                    <span class="message">سلام، چطوری شما؟
-                                    </span>
+                                    <span class="message">سلام، چطوری شما؟</span>
                                 </a>
                             </li>
                             <li>
@@ -181,10 +169,8 @@ $row=mysqli_fetch_assoc($res);
                                         <img alt="avatar" src="img/avatar-mini3.jpg"></span>
                                     <span class="subject">
                                         <span class="from">صبا ذاکر</span>
-                                        <span class="time">3 ساعت قبل</span>
-                                    </span>
-                                    <span class="message">چه پنل مدیریتی فوق العاده ایی
-                                    </span>
+                                        <span class="time">3 ساعت قبل</span></span>
+                                    <span class="message">چه پنل مدیریتی فوق العاده ایی</span>
                                 </a>
                             </li>
                             <li>
@@ -195,8 +181,7 @@ $row=mysqli_fetch_assoc($res);
                                         <span class="from">مسعود شریفی</span>
                                         <span class="time">همین حالا</span>
                                     </span>
-                                    <span class="message">سلام،متن پیام نمایشی جهت تست
-                                    </span>
+                                    <span class="message">سلام،متن پیام نمایشی جهت تست</span>
                                 </a>
                             </li>
                             <li>
@@ -204,11 +189,9 @@ $row=mysqli_fetch_assoc($res);
                             </li>
                         </ul>
                     </li>
-                    <!-- inbox dropdown end -->
                     <!-- notification dropdown start-->
                     <li id="header_notification_bar" class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-
                             <i class="icon-bell-alt"></i>
                             <span class="badge bg-warning">7</span>
                         </a>
@@ -221,7 +204,6 @@ $row=mysqli_fetch_assoc($res);
                                 <a href="#">
                                     <span class="label label-danger"><i class="icon-bolt"></i></span>
                                     سرور شماره 3 توقف کرده
-
                                     <span class="small italic">34 دقیقه قبل</span>
                                 </a>
                             </li>
@@ -229,7 +211,6 @@ $row=mysqli_fetch_assoc($res);
                                 <a href="#">
                                     <span class="label label-warning"><i class="icon-bell"></i></span>
                                     سرور شماره 4 بارگزاری نمی شود
-
                                     <span class="small italic">1 ساعت قبل</span>
                                 </a>
                             </li>
@@ -237,7 +218,6 @@ $row=mysqli_fetch_assoc($res);
                                 <a href="#">
                                     <span class="label label-danger"><i class="icon-bolt"></i></span>
                                     پنل مدیریت 24% پیشرفت داشته است
-
                                     <span class="small italic">4 ساعت قبل</span>
                                 </a>
                             </li>
@@ -245,7 +225,6 @@ $row=mysqli_fetch_assoc($res);
                                 <a href="#">
                                     <span class="label label-success"><i class="icon-plus"></i></span>
                                     ثبت نام کاربر جدید
-
                                     <span class="small italic">همین حالا</span>
                                 </a>
                             </li>
@@ -253,7 +232,6 @@ $row=mysqli_fetch_assoc($res);
                                 <a href="#">
                                     <span class="label label-info"><i class="icon-bullhorn"></i></span>
                                     برنامه پیام خطا دارد
-
                                     <span class="small italic">10 دقیقه قبل</span>
                                 </a>
                             </li>
@@ -313,10 +291,8 @@ $row=mysqli_fetch_assoc($res);
                         <ul class="sub">
                             <li><a class="" href="dashbord.php?m=menu&p=list">لیست منو ها</a></li>
                             <li><a class="" href="dashbord.php?m=menu&p=add">افزودن منو جدید</a></li>
-
                         </ul>
                     </li>
-
                 </ul>
                 <!-- sidebar menu end-->
             </div>
@@ -328,23 +304,16 @@ $row=mysqli_fetch_assoc($res);
                 <?php
                     @$m=$_GET['m']?$_GET['m']:'index';
                     @$p=$_GET['p']?$_GET['p']:'index';
-                    include_once "$m/$p.php";
-
-
-
-
-                ?>
+                    include_once "$m/$p.php"; ?>
             </section>
         </section>
         <!--main content end-->
     </section>
-
     <!-- js placed at the end of the document so the pages load faster -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.scrollTo.min.js"></script>
     <script src="js/jquery.nicescroll.js" type="text/javascript"></script>
-
     <!-- BEGIN:File Upload Plugin JS files-->
     <script src="assets/jquery-file-upload/js/vendor/jquery.ui.widget.js"></script>
     <!-- The Templates plugin is included to render the upload/download listings -->
@@ -361,11 +330,7 @@ $row=mysqli_fetch_assoc($res);
     <script src="assets/jquery-file-upload/js/jquery.fileupload-fp.js"></script>
     <!-- The File Upload user interface plugin -->
     <script src="assets/jquery-file-upload/js/jquery.fileupload-ui.js"></script>
-
-
     <!--common script for all pages-->
     <script src="js/common-scripts.js"></script>
-
-
 </body>
 </html>

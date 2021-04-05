@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 if(isset($_POST['btn'])){
     $data=$_POST["frm"];
     addmenu($data);
