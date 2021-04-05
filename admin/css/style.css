@@ -4,7 +4,7 @@
     src:url('../fonts/IranSanse.eot?#iefix') format('embedded-opentype'),/*IE6-IE8*/
         url('../fonts/IranSanse.woff') format('woff'),
         url('../fonts/IranSanse.ttf') format('truetype'),
-        url('../fonts/IranSanse.svg') format('svg');    
+        url('../fonts/glyphicons-halflings-regular.svg') format('svg');
 }
 
 body {
@@ -433,7 +433,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
     /* Safari and Chrome */
     .dropdown-menu.extended  {
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.176) !important;
-    };
+    }
 }
 
 .dropdown-menu.extended li p {
@@ -1422,7 +1422,7 @@ h3.timeline-title {
     /* Safari and Chrome */
     .panel-footer.revenue-foot {
         margin-bottom: -4px;
-    };
+    }
     }
 
 
