@@ -24,6 +24,22 @@ function submenu(){
     }
     return $result;
 }
+function listmenuadmin(){
+    $connect=config();
+    $sql="SELECT * FROM menu_tbl";
+    $row=mysqli_query($connect,$sql);
+    while($res=mysqli_fetch_assoc($row)){
+        $result[]=$res;
+    }
+    return $result;
+}
+function selectparentmenu($chid){
+    $connect=config();
+    $sql="SELECT * FROM menu_tbl WHERE id='$chid'";
+    $row=mysqli_query($connect,$sql);
+    $res=mysqli_fetch_assoc($row);
+    return $res['title'];
+}
 
 
 

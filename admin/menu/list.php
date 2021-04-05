@@ -15,15 +15,29 @@
                 </tr>
                 </thead>
                 <tbody>
-
+                    <?php
+                    $listmenu=listmenuadmin();
+                    foreach ($listmenu as $val):
+                    ?>
                     <tr>
-                        <td>1</td>
-                        <td>2</td>
-                        <td><img width="60"  src=""/></td>
+                        <td><?php echo $val['title'];?></td>
+                        <td><?php
+                            if($val['chid']==0){
+                             echo "ندارد";
+                            }
+                            else{
+                                $parent=selectparentmenu($val['chid']);
+                                echo $parent;
+                            }
+                        ?></td>
+                        <td><?php echo $val['url'];?></td>
+                        <td><?php echo $val['sort'];?></td>
                         <td><a href="dashbord.php?m=product&p=edit&id=" class="btn btn-primary btn-xs"><i class="icon-pencil"></i></a></td>
                         <td><a href="dashbord.php?m=product&p=delete&id=" class="btn btn-danger btn-xs"><i class="icon-trash "></i></a></td>
                     </tr>
-
+                    <?php
+                    endforeach;
+                    ?>
 
                 </tbody>
             </table>
