@@ -33,7 +33,7 @@
                         <td><?php echo $val['url'];?></td>
                         <td><?php echo $val['sort'];?></td>
                         <td><a href="dashbord.php?m=product&p=edit&id=" class="btn btn-primary btn-xs"><i class="icon-pencil"></i></a></td>
-                        <td><a href="dashbord.php?m=product&p=delete&id=" class="btn btn-danger btn-xs"><i class="icon-trash "></i></a></td>
+                        <td><a href="dashbord.php?m=menu&p=delete&id=<?php echo $val['id']; ?>" class="btn btn-danger btn-xs"><i class="icon-trash "></i></a></td>
                     </tr>
                     <?php
                     endforeach;

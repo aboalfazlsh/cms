@@ -40,10 +40,12 @@ function selectparentmenu($chid){
     $res=mysqli_fetch_assoc($row);
     return $res['title'];
 }
-
-
-
-
+function deletemenu($id){
+    $connect=config();
+    $sql="DELETE FROM menu_tbl WHERE id='$id'";
+    $row=mysqli_query($connect,$sql);
+    header("location:../admin/dashbord.php?m=menu&p=list");
+}
 
 
 ?>
