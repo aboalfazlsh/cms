@@ -10,6 +10,7 @@
                     <th> نام محصول</th>
                     <th> دسته بندی</th>
                     <th>تصویر </th>
+                    <th> وضعیت </th>
                     <th>ویرایش</th>
                     <th>حذف</th>
                 </tr>
@@ -33,6 +34,16 @@
                         </td>
                         <td><?php echo $val['url'];?></td>
                         <td><?php echo $val['sort'];?></td>
+                        <td>
+                            <?php 
+                            if ($val[status]==0){
+                            echo "غیرفعال"
+                            }
+                            else{
+                                echo"فعال"
+                            }
+                            ?>
+                        </td>
                         <td><a href="dashbord.php?m=product&p=edit&id=" class="btn btn-primary btn-xs"><i class="icon-pencil"></i></a></td>
                         <td><a href="dashbord.php?m=menu&p=delete&id=<?php echo $val['id'];?>" class="btn btn-danger btn-xs"><i class="icon-trash "></i></a></td>
                     </tr>
