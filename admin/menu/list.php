@@ -36,11 +36,15 @@
                         <td><?php echo $val['sort'];?></td>
                         <td>
                             <?php 
-                            if ($val[status]==0){
-                            echo "غیرفعال"
+                            if ($val['status']==0){
+                            echo "
+                            <span class='btn btn-danger' >غیرفعال <span/>
+                            ";
                             }
                             else{
-                                echo"فعال"
+                                echo"
+                                <span class='btn btn-success' > فعال <span/>
+                                ";
                             }
                             ?>
                         </td>
