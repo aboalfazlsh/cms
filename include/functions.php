@@ -44,4 +44,18 @@ function deletemenu($id){
     $sql="DELETE FROM menu_tbl WHERE id='$id'";
     $row=mysqli_query($connect,$sql);
 }
+function showmenu($id){
+    $connect=config();
+    $sql="SELECT * FROM menu_tbl WHERE id='$id'";
+    $row=mysqli_query($connect,$sql);
+    $res=mysqli_fetch_assoc($row);
+    return $res;
+
+}
+function editmenu($data,$id){
+    $connect=config();
+    $sql="UPDATE menu_tbl SET title='$data[title]',url='$data[url]',sort='$data[sort]',status='$data[status]',chid='$data[parent]' WHERE id='$id'";
+    mysqli_query($connect,$sql);
+    echo "Menu changed successfully ";
+}
 ?>
