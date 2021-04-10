@@ -1,3 +1,9 @@
+<?php
+    include_once "include/functions.php";
+    $connect=config();
+
+
+?>
 <!--ترجمه شده توسط مرجع تخصصی برنامه نویسان-->
 <!DOCTYPE HTML>
 <html>
@@ -62,13 +68,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav">
-								<li class="active"><a href="index.html" class="wow fadeInDownBig" data-wow-delay=".1s">صفحه اصلی<span class="sr-only">(current)</span></a></li>
+                            <?php
+                            $row=listmenudefault();
+                            foreach  ($row as $val):
+                            ?>
+<!--								<li ><a href="index.html" class="wow fadeInDownBig" data-wow-delay=".1s">صفحه اصلی<span class="sr-only">(current)</span></a></li>-->
 								<li><a href="./admin/index.php" class="wow fadeInDownBig" data-wow-delay=".4s">ورود</a></li>
-								<li><a href="services.php" class="wow fadeInDownBig" data-wow-delay=".4s">خدمات</a></li>
-								<li><a href="gallery.php" class="wow fadeInDownBig" data-wow-delay=".6s">گالری</a></li>
-								<li><a href="codes.php" class="wow fadeInDownBig" data-wow-delay=".7s">نمونه ها</a></li>
-								<li><a href="contact.php" class="wow fadeInDownBig" data-wow-delay=".9s">تماس با ما</a></li>
-                                <li><a href="about.php" class="wow fadeInDownBig" data-wow-delay=".2s">درباره ما</a></li>
+                            <?php endforeach; ?>
 
                             </ul>
 						</div>
