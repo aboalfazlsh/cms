@@ -68,4 +68,14 @@ function listmenudefault()
     }
     return $result;
 }
+function listsubmenudefault($id)
+{
+    $connect = config();
+    $sql = "SELECT * FROM menu_tbl WHERE status='1' AND chid='$id' ORDER BY sort ASC";
+    $row = mysqli_query($connect, $sql);
+    while ($res = mysqli_fetch_assoc($row)) {
+        $result[] = $res;
+    }
+    return $result;
+}
 ?>
