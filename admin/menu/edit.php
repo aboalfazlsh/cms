@@ -6,12 +6,12 @@ if(isset($_POST['btn'])){
 }
 $data=showmenu($id);
 ?>
-<h1 class="pageLables">افزودن منو جدید</h1>
+<h1 class="pageLables">ویرایش منو</h1>
 <div class="row">
     <div class="col-lg-8 col-lg-offset-2" >
         <section class="panel">
             <header class="panel-heading">
-                افزودن منو جدید به وب سایت
+                 ویرایش منوی سایت
             </header>
             <div class="panel-body">
                 <form role="form" method="post">
