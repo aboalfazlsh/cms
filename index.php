@@ -68,12 +68,32 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav">
+
                             <?php
                             $row=listmenudefault();
                             foreach  ($row as $val):
                             ?>
 <!--								<li ><a href="index.html" class="wow fadeInDownBig" data-wow-delay=".1s">صفحه اصلی<span class="sr-only">(current)</span></a></li>-->
-								<li><a href="./admin/index.php" class="wow fadeInDownBig" data-wow-delay=".4s">ورود</a></li>
+								<li><a href="<?php echo $val["url"]; ?>" class="wow fadeInDownBig" data-wow-delay=".4s"><?php echo $val["title"]; ?></a>
+						<ul class="dropdown-menu">
+							<?php
+                            					$rows=listsubmenudefault($val["id"]);
+                            					foreach  ($rows as $value):
+                            				?>	
+								<li>
+									<a href="<?php echo $value["url"]; ?>">
+										<?php echo $value["title"]; ?>
+									</a>
+								</li>
+							<?php endforeach; ?>
+							</ul>
+							
+								
+								
+								
+								
+								</li>
+								
                             <?php endforeach; ?>
 
                             </ul>
