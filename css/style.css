@@ -117,6 +117,7 @@ body{
     font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 1.5em;
 }
+
 .dropdown-menu {
     position: absolute;
     top: 100%;
@@ -313,7 +314,7 @@ a.button:hover {
    position: relative;
 }
 .view a.info {
-   background:url(../img/link.png) center no-repeat;
+   background:url(../images/arrow1.png) center no-repeat;
    display: inline-block;
    text-decoration: none;
    padding:0;
@@ -1926,542 +1927,700 @@ figure.effect-oscar figcaption::before {
     width: 99%;
 }
 }
-@media (max-width: 600px){
-.banner-grids {
-      bottom: 3.1em;
-}
-.welcome-text {
-    padding: 3.5em 2em;
-    width: 243px;
-    height: 240px;
-}
-.banner-grid h4, .welcome-text h4, .product-section h4, .footer-grid h4, .about-grid h4, .captn h4, .ser-grid h4, .list-grid h4, .services-left h4, .mail-right h4, .map h4 {
-    font-size: 1.2em;
-}
-.view {
-    width: 107px;
-    height: 83px;
-}
-a.button {
-    font-size: 0.95em;
-    padding: .5em 0;
-}
-#box {
-    position: relative;
-    width: 196px;
-    height: 180px;
-}
-.btm-left .captn {
-    left: 0px;
-    width: 100%;
-	padding: 8% 10%;
-}
-.services-right {
-    float: right;
-    width: 20%;
-}
-.welcome-icon {
-    width: 22%;
-    right: 8em;
-}
-@media (max-width: 568px){
-.banner-grids {
-    bottom: 2em;
-}
-.welcome-section {
-    margin-top: 28em;
-}
-.welcome-icon {
-    width: 23%;
-}
-.view {
-    width: 95px;
-    height: 74px;
-}
-.banner-grid h4, .welcome-text h4, .product-section h4, .footer-grid h4, .about-grid h4, .captn h4, .ser-grid h4, .list-grid h4, .services-left h4, .mail-right h4, .map h4 {
-    font-size: 1.13em;
-}
-.grid figure h4 {
-    font-size: 0.8em;
-}
-#box {
-    position: relative;
-    width: 176px;
-    height: 145px;
-}
-.new-grid1 h4 {
-    font-size: 1.1em;
-    line-height: 1.5em;
-}
-.new-grid1 h5 {
-    font-size: 0.9em;
-}
-.btm-left .captn {
-    left: 0px;
-    width: 100%;
-    bottom: -58%;
-}
-}
-@media(max-width:480px){
-.banner-grid {
-    width: 100%;
-}
-.welcome-section {
-    margin-top: 105em;
-}
-.banner-grids {
-    bottom: 0.3em;
-}
-.banner {
-    background: url(../images/ba2.jpg) no-repeat -299px 0px;
-    background-size: cover;
-}
-.banner1 {
-    min-height: 50px !important;
-    background: url(../images/ba2.jpg) no-repeat 0px 0px;
-    background-size: cover;
-}
-.view {
-    width: 355px;
-    height: 268px;
-}
-.welcome-grids {
-    margin-top: 2em;
-}
-.fourth-effect .mask {
-   right: 130px;
-   height: 128px;
-}
-.welcome-grid {
-    width: 100%;
-}
-.welcome-text {
-   margin: 0 auto;
-}
-.welcome-icon {
-    width: 14%;
-    right: 13.5em;
-}
-.welcome-grid:nth-child(2) {
-    margin-top: 5em;
-}
-.banner-grids {
-    bottom: -4.5em;
-}
-.welcome-grids {
-    margin-top: 2em;
-	    padding: 4em 0 2em;
-}
-.product-section, .news-section, .testimonials-section, .footer-section, .about-section, .history-section, .services, .main-services, .overview,.gallery, .pages, .mail {
-    padding: 2em 0;
-}
-.welcome-section h2, .about-section h2, .gallery h2, .pages-top h2, .mail h2, .services h2 {
-    font-size: 3em;
-}
-.product-section h3, .news-section h3, .testimonials-section h3, .history-section h3, .team h3, .overview h3, .main-services h3 {
-    font-size: 2.8em;
-}
-.banner-grid h4, .welcome-text h4, .product-section h4, .footer-grid h4, .about-grid h4, .captn h4, .ser-grid h4, .list-grid h4, .services-left h4, .mail-right h4, .map h4 {
-    font-size: 1.4em;
-}
-.banner-grid:nth-child(2) {
-    margin: 2em 0;
-}
-.product-section a i {
-    margin-top: 0.4em;
-}
-.banner-grids {
-    bottom: 1.1em;
-}
-.product1-right,.product-left {
-    padding: 1.4em 1em 1.5em;
-}
-.new-grid {
-    width: 100%;
-}
-.new-grid1 {
-    width: 100%;
-}
-.new-grid img {
-    width: 100%;
-}
-#box {
-    position: relative;
-    width: 405px;
-    height: 258px;
-}
-.testimonials-section h5 {
-    font-size: 1.2em;
-}
-.btm-left .captn {
-    left: 43px;
-    width: 75%;
-}
-.testimonials-grid1 {
-    width: 100%
-}
-.testimonials-grid1 img {
-   margin:0 auto;
-}
-.testimonials-grid {
-    width: 100%;
-}
-.footer-grid ul li a {
-    font-size: 0.9em;
-}
-.about-grid {
-    width: 100%;
-}
-.about-grid img {
-    margin: 0 auto;
-}
-.about-grid:nth-child(2) {
-    margin: 2em 0;
-}
-.team-grids {
-    width: 100%;
-}
-.team-grids:nth-child(2),.team-grids:nth-child(3),.team-grids:nth-child(4) {
-    margin-top: 2em;
-}
-.btm-left .captn {
-    left: 76px;
-    width: 62%;
-    padding: 4% 10%;
-}
-.btm-left img {
-    margin: 0 auto;
-}
-.history-grid {
-    float: right;
-    width: 50%;
-}
-.history-grid:nth-child(3),.history-grid:nth-child(4) {
-    margin-top: 2em;
-}
-.history-grid h6 {
-    font-size: 1.3em;
-}
-.ser-grid ul li a {
-    font-size: 0.95em;
-}
-.list-grid {
-    width: 100%;
-}
-.list-grid:nth-child(2),.list-grid:nth-child(3),.list-grid:nth-child(4) {
-    margin-top: 2em;
-}
-.ser-grid ul li {
-    font-size: 0.95em;
-}
-.services-grid {
-    float: right;
-    width: 100%;
-}
-.services-left {
-    float: left;
-    width: 85%;
-}
-.services-right p {
-    padding: 11px 0;
-}
-.services-right {
-    width: 12%;
-}
-.services-grid:nth-child(2){
-    margin-top: 2em;
-}
-.g-right, .g-left {
-    width: 50%;
-    float: right;
-    padding-top: 4px;
-}
-figure.effect-oscar figcaption {
-    padding: 2em 0.5em;
-}
-.g-left {
-    width: 100%;
-    padding-top: 4px;
-}
-.map iframe {
-    width: 100%;
-    min-height: 230px;
-    margin: 2em 0 -.3em;
-}
-.mail-right input[type="submit"] {
-    width: 25%;
-}
-.mail-right ul li:nth-child(2) {
-    margin-right: 6em;
-}
-}
-@media(max-width:414px){
-.banner-center h3 {
-    font-size: 2.5em;
-}
-.logo h1 a {
-    font-size: 1.3em;
-}
-.banner-grids {
-    bottom: 0.6em;
-}
-.view {
-    width: 289px;
-    height: 219px;
-}
-.fourth-effect .mask {
-    right: 100px;
-    height: 100px;
-}
-.history-grid h6 {
-    font-size: 1.2em;
-}
-.btm-left .captn {
-    left: 43px;
-    width: 75%;
-}
-.welcome-section {
-    margin-top: 94em;
-}
-.welcome-icon {
-    width: 16%;
-    right: 11.5em;
-}
-.product-right {
-    width: 100%;
-}
-.product-left {
-    width: 100%;
-}
-.product1-right {
-    width: 100%;
-}
-.product1-left {
-    width: 100%;
-}
-#box {
-    position: relative;
-    width: 341px;
-    height: 197px;
-}
-.ser-grid {
-    float: right;
-    width: 100%;
-}
-.ser-grid:nth-child(2),.ser-grid:nth-child(3),.ser-grid:nth-child(4){
-    margin-top: 1em;
-}
-.services-right {
-    width: 14%;
-}
-.services-left {
-    float: left;
-    width: 80%;
-}
-.grid figure p {
-    font-size: 55%;
-    margin: 0 0.5em;
-}
-.mail-right ul li:nth-child(2) {
-    margin-right: 2em;
-}
-.product-section h3, .news-section h3, .testimonials-section h3, .history-section h3, .team h3, .overview h3, .main-services h3 {
-    font-size: 2.2em;
-}
-.welcome-section h2, .about-section h2, .gallery h2, .pages-top h2, .mail h2, .services h2 {
-    font-size: 2.5em;
-}
-.mail-right p {
-    margin: 0.5em 0 1em;
-}
-}
-@media(max-width:384px){
-.banner-grids {
-    bottom: 1.1em;
-}
-.welcome-section {
-    margin-top: 90em;
-}
-.welcome-icon {
-    width: 18%;
-    right: 10em;
-}
-.new-grid1 h4 a {
-    font-size: 1.1em;
-}
-.view {
-    width: 260px;
-    height: 201px;
-}
-.fourth-effect .mask {
-    right: 77px;
-    height: 100px;
-}
-.navbar-default .navbar-nav > li > a {
-    font-size: 1.1em
-}
-.logo h1 a {
-    font-size: 1.2em;
-}
-#box {
-    position: relative;
-    width: 313px;
-    height: 185px;
-}
-.btm-left .captn {
-    left: 28px;
-    width: 82%;
-}
-.history-grid h6 {
-    font-size: 1.1em;
-}
-.history-grid h5 {
-    font-size: 2em;
-}
-.banner-grid p, .welcome-text p, .product-section p, .new-grid1 p, .testimonials-section p, .about-grid p, .choose-grid p {
-    font-size: 0.9em;
-}
-}
-@media (max-width: 375px){
-.welcome-section {
-    margin-top: 87em;
-}
-.welcome-icon {
-    width: 19%;
-    right: 10em;
-}
-.banner-grids {
-    bottom: 0.5em;
-}
-.view {
-    width: 250px;
-    height: 190px;
-}
-#box {
-    position: relative;
-    width: 300px;
-    height: 180px;
-}
-}
-@media(max-width:320px){
-.welcome-section {
-    margin-top: 86.2em;
-}
-.banner-grids {
-    bottom: 1.7em;
-}
-.banner-grid {
-    padding: 0;
-}
-.view {
-    width: 225px;
-    height: 172px;
-}
-.fourth-effect .mask {
-    right: 63px;
-    height: 99px;
-}
-.banner-grid h4, .welcome-text h4, .product-section h4, .footer-grid h4, .about-grid h4, .captn h4, .ser-grid h4, .list-grid h4, .services-left h4, .mail-right h4, .map h4 {
-    font-size: 1.2em;
-}
-.welcome-text {
-    width: 100%;
-}
-#box {
-    position: relative;
-    width: 272px;
-    height: 180px;
-}
-.new-grid {
-    padding: 0;
-}
-.new-grid {
-    border-left: none;
-}
-.welcome-text {
-   padding: 3.5em 2em;
-}
-.welcome-icon {
-    width: 22%;
-    right: 8em;
-}
-.banner-grid:nth-child(2) {
-    margin: 1em 0;
-}
-.product-section, .news-section, .testimonials-section, .footer-section, .about-section, .history-section, .services,.overview, .main-services, .gallery, .pages, .mail {
-    padding: 1em 0;
-}
-.product-grids, .news-grids, .testimonials-grids, .about-grids, .team-info, .history-grids, .services-grids, .overview-grids, .mail-grids {
-    margin-top: 1em;
-}
-.product-grid,.product-grid1  {
-    padding: 0;
-}
-.testimonials-grid {
-    padding: 0;
-}
-.footer-grid {
-    width: 100%;
-}
-.footer-grid:nth-child(2),.footer-grid:nth-child(3), .footer-grid:nth-child(4) {
-    margin-top: 1em;
-}
-.copy-section {
-    padding: 1em 0;
-}
-.about-grid {
-    padding: 0;
-}
-.team-grids {
-    padding: 0;
-    width: 100%;
-}
-.team-grids img {
-    width: 100%;
-}
-.team-grids:nth-child(2),.team-grids:nth-child(3), .team-grids:nth-child(4) {
-    margin-top: 1em;
-}
-.history-grid {
-    width: 100%;
-    padding: 0;
-}
-.history-grid:nth-child(2),.history-grid:nth-child(3), .history-grid:nth-child(4) {
-    margin-top: 1em;
-}
-.ser-grid {
-    padding: 0;
-}
-.list-grid {
-    width: 100%;
-    padding: 0;
-}
-.list-grid:nth-child(2),.list-grid:nth-child(3), .list-grid:nth-child(4) {
-    margin-top: 1em;
-}
-.services-grid {
-    padding: 0;
-}
-.services-right {
-    width: 17%;
-}
-.services-left {
-    float: left;
-    width: 78%;
-}
-.btm-left .captn {
-    left: 0px;
-    width: 100%;
-}
-figure.effect-oscar figcaption {
-    padding: 1em 7px;
-}
-.mail-right {
-    padding: 0;
-}
-.mail-right ul li:nth-child(2) {
-    margin-right: 0em;
-    margin-top: 1em;
-}
-}
+@media (max-width: 600px) {
+    .banner-grids {
+        bottom: 3.1em;
+    }
+
+    .welcome-text {
+        padding: 3.5em 2em;
+        width: 243px;
+        height: 240px;
+    }
+
+    .banner-grid h4, .welcome-text h4, .product-section h4, .footer-grid h4, .about-grid h4, .captn h4, .ser-grid h4, .list-grid h4, .services-left h4, .mail-right h4, .map h4 {
+        font-size: 1.2em;
+    }
+
+    .view {
+        width: 107px;
+        height: 83px;
+    }
+
+    a.button {
+        font-size: 0.95em;
+        padding: .5em 0;
+    }
+
+    #box {
+        position: relative;
+        width: 196px;
+        height: 180px;
+    }
+
+    .btm-left .captn {
+        left: 0px;
+        width: 100%;
+        padding: 8% 10%;
+    }
+
+    .services-right {
+        float: right;
+        width: 20%;
+    }
+
+    .welcome-icon {
+        width: 22%;
+        right: 8em;
+    }
+
+    @media (max-width: 568px) {
+        .banner-grids {
+            bottom: 2em;
+        }
+
+        .welcome-section {
+            margin-top: 28em;
+        }
+
+        .welcome-icon {
+            width: 23%;
+        }
+
+        .view {
+            width: 95px;
+            height: 74px;
+        }
+
+        .banner-grid h4, .welcome-text h4, .product-section h4, .footer-grid h4, .about-grid h4, .captn h4, .ser-grid h4, .list-grid h4, .services-left h4, .mail-right h4, .map h4 {
+            font-size: 1.13em;
+        }
+
+        .grid figure h4 {
+            font-size: 0.8em;
+        }
+
+        #box {
+            position: relative;
+            width: 176px;
+            height: 145px;
+        }
+
+        .new-grid1 h4 {
+            font-size: 1.1em;
+            line-height: 1.5em;
+        }
+
+        .new-grid1 h5 {
+            font-size: 0.9em;
+        }
+
+        .btm-left .captn {
+            left: 0px;
+            width: 100%;
+            bottom: -58%;
+        }
+    }
+    @media (max-width: 480px) {
+        .banner-grid {
+            width: 100%;
+        }
+
+        .welcome-section {
+            margin-top: 105em;
+        }
+
+        .banner-grids {
+            bottom: 0.3em;
+        }
+
+        .banner {
+            background: url(../images/ba2.jpg) no-repeat -299px 0px;
+            background-size: cover;
+        }
+
+        .banner1 {
+            min-height: 50px !important;
+            background: url(../images/ba2.jpg) no-repeat 0px 0px;
+            background-size: cover;
+        }
+
+        .view {
+            width: 355px;
+            height: 268px;
+        }
+
+        .welcome-grids {
+            margin-top: 2em;
+        }
+
+        .fourth-effect .mask {
+            right: 130px;
+            height: 128px;
+        }
+
+        .welcome-grid {
+            width: 100%;
+        }
+
+        .welcome-text {
+            margin: 0 auto;
+        }
+
+        .welcome-icon {
+            width: 14%;
+            right: 13.5em;
+        }
+
+        .welcome-grid:nth-child(2) {
+            margin-top: 5em;
+        }
+
+        .banner-grids {
+            bottom: -4.5em;
+        }
+
+        .welcome-grids {
+            margin-top: 2em;
+            padding: 4em 0 2em;
+        }
+
+        .product-section, .news-section, .testimonials-section, .footer-section, .about-section, .history-section, .services, .main-services, .overview, .gallery, .pages, .mail {
+            padding: 2em 0;
+        }
+
+        .welcome-section h2, .about-section h2, .gallery h2, .pages-top h2, .mail h2, .services h2 {
+            font-size: 3em;
+        }
+
+        .product-section h3, .news-section h3, .testimonials-section h3, .history-section h3, .team h3, .overview h3, .main-services h3 {
+            font-size: 2.8em;
+        }
+
+        .banner-grid h4, .welcome-text h4, .product-section h4, .footer-grid h4, .about-grid h4, .captn h4, .ser-grid h4, .list-grid h4, .services-left h4, .mail-right h4, .map h4 {
+            font-size: 1.4em;
+        }
+
+        .banner-grid:nth-child(2) {
+            margin: 2em 0;
+        }
+
+        .product-section a i {
+            margin-top: 0.4em;
+        }
+
+        .banner-grids {
+            bottom: 1.1em;
+        }
+
+        .product1-right, .product-left {
+            padding: 1.4em 1em 1.5em;
+        }
+
+        .new-grid {
+            width: 100%;
+        }
+
+        .new-grid1 {
+            width: 100%;
+        }
+
+        .new-grid img {
+            width: 100%;
+        }
+
+        #box {
+            position: relative;
+            width: 405px;
+            height: 258px;
+        }
+
+        .testimonials-section h5 {
+            font-size: 1.2em;
+        }
+
+        .btm-left .captn {
+            left: 43px;
+            width: 75%;
+        }
+
+        .testimonials-grid1 {
+            width: 100%
+        }
+
+        .testimonials-grid1 img {
+            margin: 0 auto;
+        }
+
+        .testimonials-grid {
+            width: 100%;
+        }
+
+        .footer-grid ul li a {
+            font-size: 0.9em;
+        }
+
+        .about-grid {
+            width: 100%;
+        }
+
+        .about-grid img {
+            margin: 0 auto;
+        }
+
+        .about-grid:nth-child(2) {
+            margin: 2em 0;
+        }
+
+        .team-grids {
+            width: 100%;
+        }
+
+        .team-grids:nth-child(2), .team-grids:nth-child(3), .team-grids:nth-child(4) {
+            margin-top: 2em;
+        }
+
+        .btm-left .captn {
+            left: 76px;
+            width: 62%;
+            padding: 4% 10%;
+        }
+
+        .btm-left img {
+            margin: 0 auto;
+        }
+
+        .history-grid {
+            float: right;
+            width: 50%;
+        }
+
+        .history-grid:nth-child(3), .history-grid:nth-child(4) {
+            margin-top: 2em;
+        }
+
+        .history-grid h6 {
+            font-size: 1.3em;
+        }
+
+        .ser-grid ul li a {
+            font-size: 0.95em;
+        }
+
+        .list-grid {
+            width: 100%;
+        }
+
+        .list-grid:nth-child(2), .list-grid:nth-child(3), .list-grid:nth-child(4) {
+            margin-top: 2em;
+        }
+
+        .ser-grid ul li {
+            font-size: 0.95em;
+        }
+
+        .services-grid {
+            float: right;
+            width: 100%;
+        }
+
+        .services-left {
+            float: left;
+            width: 85%;
+        }
+
+        .services-right p {
+            padding: 11px 0;
+        }
+
+        .services-right {
+            width: 12%;
+        }
+
+        .services-grid:nth-child(2) {
+            margin-top: 2em;
+        }
+
+        .g-right, .g-left {
+            width: 50%;
+            float: right;
+            padding-top: 4px;
+        }
+
+        figure.effect-oscar figcaption {
+            padding: 2em 0.5em;
+        }
+
+        .g-left {
+            width: 100%;
+            padding-top: 4px;
+        }
+
+        .map iframe {
+            width: 100%;
+            min-height: 230px;
+            margin: 2em 0 -.3em;
+        }
+
+        .mail-right input[type="submit"] {
+            width: 25%;
+        }
+
+        .mail-right ul li:nth-child(2) {
+            margin-right: 6em;
+        }
+    }
+    @media (max-width: 414px) {
+        .banner-center h3 {
+            font-size: 2.5em;
+        }
+
+        .logo h1 a {
+            font-size: 1.3em;
+        }
+
+        .banner-grids {
+            bottom: 0.6em;
+        }
+
+        .view {
+            width: 289px;
+            height: 219px;
+        }
+
+        .fourth-effect .mask {
+            right: 100px;
+            height: 100px;
+        }
+
+        .history-grid h6 {
+            font-size: 1.2em;
+        }
+
+        .btm-left .captn {
+            left: 43px;
+            width: 75%;
+        }
+
+        .welcome-section {
+            margin-top: 94em;
+        }
+
+        .welcome-icon {
+            width: 16%;
+            right: 11.5em;
+        }
+
+        .product-right {
+            width: 100%;
+        }
+
+        .product-left {
+            width: 100%;
+        }
+
+        .product1-right {
+            width: 100%;
+        }
+
+        .product1-left {
+            width: 100%;
+        }
+
+        #box {
+            position: relative;
+            width: 341px;
+            height: 197px;
+        }
+
+        .ser-grid {
+            float: right;
+            width: 100%;
+        }
+
+        .ser-grid:nth-child(2), .ser-grid:nth-child(3), .ser-grid:nth-child(4) {
+            margin-top: 1em;
+        }
+
+        .services-right {
+            width: 14%;
+        }
+
+        .services-left {
+            float: left;
+            width: 80%;
+        }
+
+        .grid figure p {
+            font-size: 55%;
+            margin: 0 0.5em;
+        }
+
+        .mail-right ul li:nth-child(2) {
+            margin-right: 2em;
+        }
+
+        .product-section h3, .news-section h3, .testimonials-section h3, .history-section h3, .team h3, .overview h3, .main-services h3 {
+            font-size: 2.2em;
+        }
+
+        .welcome-section h2, .about-section h2, .gallery h2, .pages-top h2, .mail h2, .services h2 {
+            font-size: 2.5em;
+        }
+
+        .mail-right p {
+            margin: 0.5em 0 1em;
+        }
+    }
+    @media (max-width: 384px) {
+        .banner-grids {
+            bottom: 1.1em;
+        }
+
+        .welcome-section {
+            margin-top: 90em;
+        }
+
+        .welcome-icon {
+            width: 18%;
+            right: 10em;
+        }
+
+        .new-grid1 h4 a {
+            font-size: 1.1em;
+        }
+
+        .view {
+            width: 260px;
+            height: 201px;
+        }
+
+        .fourth-effect .mask {
+            right: 77px;
+            height: 100px;
+        }
+
+        .navbar-default .navbar-nav > li > a {
+            font-size: 1.1em
+        }
+
+        .logo h1 a {
+            font-size: 1.2em;
+        }
+
+        #box {
+            position: relative;
+            width: 313px;
+            height: 185px;
+        }
+
+        .btm-left .captn {
+            left: 28px;
+            width: 82%;
+        }
+
+        .history-grid h6 {
+            font-size: 1.1em;
+        }
+
+        .history-grid h5 {
+            font-size: 2em;
+        }
+
+        .banner-grid p, .welcome-text p, .product-section p, .new-grid1 p, .testimonials-section p, .about-grid p, .choose-grid p {
+            font-size: 0.9em;
+        }
+    }
+    @media (max-width: 375px) {
+        .welcome-section {
+            margin-top: 87em;
+        }
+
+        .welcome-icon {
+            width: 19%;
+            right: 10em;
+        }
+
+        .banner-grids {
+            bottom: 0.5em;
+        }
+
+        .view {
+            width: 250px;
+            height: 190px;
+        }
+
+        #box {
+            position: relative;
+            width: 300px;
+            height: 180px;
+        }
+    }
+    @media (max-width: 320px) {
+        .welcome-section {
+            margin-top: 86.2em;
+        }
+
+        .banner-grids {
+            bottom: 1.7em;
+        }
+
+        .banner-grid {
+            padding: 0;
+        }
+
+        .view {
+            width: 225px;
+            height: 172px;
+        }
+
+        .fourth-effect .mask {
+            right: 63px;
+            height: 99px;
+        }
+
+        .banner-grid h4, .welcome-text h4, .product-section h4, .footer-grid h4, .about-grid h4, .captn h4, .ser-grid h4, .list-grid h4, .services-left h4, .mail-right h4, .map h4 {
+            font-size: 1.2em;
+        }
+
+        .welcome-text {
+            width: 100%;
+        }
+
+        #box {
+            position: relative;
+            width: 272px;
+            height: 180px;
+        }
+
+        .new-grid {
+            padding: 0;
+        }
+
+        .new-grid {
+            border-left: none;
+        }
+
+        .welcome-text {
+            padding: 3.5em 2em;
+        }
+
+        .welcome-icon {
+            width: 22%;
+            right: 8em;
+        }
+
+        .banner-grid:nth-child(2) {
+            margin: 1em 0;
+        }
+
+        .product-section, .news-section, .testimonials-section, .footer-section, .about-section, .history-section, .services, .overview, .main-services, .gallery, .pages, .mail {
+            padding: 1em 0;
+        }
+
+        .product-grids, .news-grids, .testimonials-grids, .about-grids, .team-info, .history-grids, .services-grids, .overview-grids, .mail-grids {
+            margin-top: 1em;
+        }
+
+        .product-grid, .product-grid1 {
+            padding: 0;
+        }
+
+        .testimonials-grid {
+            padding: 0;
+        }
+
+        .footer-grid {
+            width: 100%;
+        }
+
+        .footer-grid:nth-child(2), .footer-grid:nth-child(3), .footer-grid:nth-child(4) {
+            margin-top: 1em;
+        }
+
+        .copy-section {
+            padding: 1em 0;
+        }
+
+        .about-grid {
+            padding: 0;
+        }
+
+        .team-grids {
+            padding: 0;
+            width: 100%;
+        }
+
+        .team-grids img {
+            width: 100%;
+        }
+
+        .team-grids:nth-child(2), .team-grids:nth-child(3), .team-grids:nth-child(4) {
+            margin-top: 1em;
+        }
+
+        .history-grid {
+            width: 100%;
+            padding: 0;
+        }
+
+        .history-grid:nth-child(2), .history-grid:nth-child(3), .history-grid:nth-child(4) {
+            margin-top: 1em;
+        }
+
+        .ser-grid {
+            padding: 0;
+        }
+
+        .list-grid {
+            width: 100%;
+            padding: 0;
+        }
+
+        .list-grid:nth-child(2), .list-grid:nth-child(3), .list-grid:nth-child(4) {
+            margin-top: 1em;
+        }
+
+        .services-grid {
+            padding: 0;
+        }
+
+        .services-right {
+            width: 17%;
+        }
+
+        .services-left {
+            float: left;
+            width: 78%;
+        }
+
+        .btm-left .captn {
+            left: 0px;
+            width: 100%;
+        }
+
+        figure.effect-oscar figcaption {
+            padding: 1em 7px;
+        }
+
+        .mail-right {
+            padding: 0;
+        }
+
+        .mail-right ul li:nth-child(2) {
+            margin-right: 0em;
+            margin-top: 1em;
+        }
+    }
+}
+/*li ul{*/
+/*    display: none;*/
+/*}*/
+/*li:hover{*/
+/*    background-color: red;*/
+/*}*/
+/*li:hover ul{*/
+/*    display: block;*/
+/*}*/
+
 /**responsive**/

@@ -6,7 +6,7 @@
 ?>
 <!--ترجمه شده توسط مرجع تخصصی برنامه نویسان-->
 <!DOCTYPE HTML>
-<html>
+<html  lang="en"
 <head>
 <title>قالب سایت کشاورزی</title>
 <!---css--->
@@ -74,12 +74,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             foreach  ($row as $val):
                             ?>
 <!--								<li ><a href="index.html" class="wow fadeInDownBig" data-wow-delay=".1s">صفحه اصلی<span class="sr-only">(current)</span></a></li>-->
-								<li><a href="<?php echo $val["url"]; ?>" class="wow fadeInDownBig" data-wow-delay=".4s"><?php echo $val["title"]; ?></a>
-						<ul class="dropdown-menu">
+							<li><a href="<?php echo $val["url"]; ?>" class="wow fadeInDownBig" data-wow-delay=".4s"><?php echo $val["title"]; ?></a>
+                                <?php
+                                $rows=listsubmenudefault($val["id"]);
+                                if($rows):
+                                ?>
+                            <ul class="dropdown-menu">
 							<?php
-                            					$rows=listsubmenudefault($val["id"]);
-                            					foreach  ($rows as $value):
-                            				?>	
+                            $rows=listsubmenudefault($val["id"]);
+                            foreach  ($rows as $value):
+                                ?>
 								<li>
 									<a href="<?php echo $value["url"]; ?>">
 										<?php echo $value["title"]; ?>
@@ -87,12 +91,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</li>
 							<?php endforeach; ?>
 							</ul>
-							
+							<?php endif; ?>
 								
 								
 								
-								
-								</li>
+                            </li>
 								
                             <?php endforeach; ?>
 
