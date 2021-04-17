@@ -56,7 +56,7 @@ $data=showmenu($id);
                         <label for="exampleInputPassword1">ترتیب نمایش</label>
                         <input type="text" name="frm[sort]" class="form-control" placeholder="ترتیب نمایش" value="<?php echo $data['sort'] ?>">
                     </div>
-                    <button type="submit" name="btn" class="btn btn-info">افزودن</button>
+                    <button type="submit" name="btn" class="btn btn-info">اعمال تغییرات</button>
                     <div class="radio">
                         <label>
                             <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
