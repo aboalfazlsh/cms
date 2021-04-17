@@ -293,6 +293,17 @@ $row=mysqli_fetch_assoc($res);
                             <li><a class="" href="dashbord.php?m=menu&p=add">افزودن منو جدید</a></li>
                         </ul>
                     </li>
+                    <li class="sub-menu">
+                        <a href="javascript:;" class="">
+                            <i class="icon-book"></i>
+                            <span>دسته بندی محصولات</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <ul class="sub">
+                            <li><a class="" href="dashbord.php?m=product&p=list">لیست دسته بندی ها</a></li>
+                            <li><a class="" href="dashbord.php?m=product&p=add">افزودن دسته بندی جدید</a></li>
+                        </ul>
+                    </li>
                 </ul>
                 <!-- sidebar menu end-->
             </div>
