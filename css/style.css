@@ -2613,14 +2613,14 @@ figure.effect-oscar figcaption::before {
         }
     }
 }
-/*li ul{*/
-/*    display: none;*/
-/*}*/
-/*li:hover{*/
-/*    background-color: red;*/
-/*}*/
-/*li:hover ul{*/
-/*    display: block;*/
-/*}*/
+li ul{
+    display: none;
+}
+li:hover{
+    background-color: red;
+}
+li:hover ul{
+    display: block;
+}
 
 /**responsive**/
